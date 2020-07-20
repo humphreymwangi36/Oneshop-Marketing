@@ -1,0 +1,89 @@
+*
+{
+    padding:o;
+    margin:o;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(img/g.jpg) blue;
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+
+}
+.class-1{
+    background-color: blue;
+    color:#fff;
+    width: 100%;
+    margin-bottom: 0px;
+    margin-top: 100%;
+}
+div.class-2{
+    background: aqua;
+    color: #fff;
+    width: 740px 100px;
+}
+a{
+    color: #fff;
+}
+
+.menu-bar{
+    background:rgb(0,100,0);
+    text-align: center;
+}
+.menu-bar ul li{
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+
+}
+.menu-bar ul li{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+
+.active, .menu-bar ul li:hover{
+     background:#05050542;
+     border-radius: 3px;
+}
+.active, .menu-bar ul li:hover a:hover{
+
+color: purple;
+background:#05050542;
+
+}
+.menu-bar ul li .sub-menu-1 ul li{
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu-1{
+    position: absolute;
+    background: rgb(0,100,0);
+    margin-top: 35px;
+    margin-left:-17px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul{
+    display: block;
+    margin: 0px;
+    padding-left:0px;
+    padding-right:10px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li{
+    display: block;
+    width: 100px;
+    font-size: smaller;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    text-align: left;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover{
+    color: purple;
+}
+  
+.footer{
+    background: rgb(0,100,0);
+    color: #fff;
+    text-align: center;
+     margin-top: 100%;
+}

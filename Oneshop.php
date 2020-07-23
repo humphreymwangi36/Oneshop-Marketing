@@ -4,9 +4,10 @@
 <head>
         <title> Oneshop</title>
         <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/bootstrap.min"/>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
     </head>
 <body>
+
         <div class="menu-bar">
     
     <ul>
@@ -59,10 +60,26 @@
          </li>   
          </ul>
     </div>
-    <div id="backgroung-image">
+    <div id="background-image">
         <div id="image-1"></div>
             <div id="image-2"></div>
-    </div>    
+    </div> 
+   
+    <div class="col-md-2"></div>
+
+
+    <div class="col-md-8">
+        <div class="row">
+            <h2 class="text-center">Featured products</h2>
+            <div class="cpl-mid-3"><br><br>
+                <h4>Lg television</h4>
+                <img src="css/img/LgTv.jpeg" alt="Lg Television" id="img">
+                <p class="list-price text-danger">List price:<s>23.39</s></p>
+                <p class="price">Our Price: $17.99</p>
+                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#details-q">Details</button>
+</div>
+
+
     <div class="footer" > Copyright @Oneshop 2020</footer></div>
      
  </body>

@@ -4,7 +4,7 @@
 <head>
         <title> Details1 </title>
         <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/bootstrap.min"/>
+        <link rel="stylesheet" href="css/bootstrap.min.css"/>
     </head>
 <body>
         <div class="menu-bar">
@@ -59,51 +59,10 @@
          </li>   
          </ul>
     </div>
-    <div class="class-1">
-        <div> 
-<p>
-    <h1>
-Firts at this point
-</h1>
-</p>
-    </div>
-
-    <div class="class-2">
-        
-<p>
-    <h>
-Brake them down
-</h>
-</p>
-
-    </div>
-
-    <div class="class-3">
-        
-<p>
-Bring it up
-</p>
-        
-        
-    </div>
-
-    <div class="class-4">
-        
-<p>
-
-WEb plus
-   </p>     
-        
-    </div>
-
-    <div class="class-5">
-        
-     <p>
-
-nnnshdm nbjmd kmnmnm sd xknn m
-       </p> 
-    </div>
-</div>
+    <div id="background-image">
+        <div id="image-1"></div>
+            <div id="image-2"></div>
+    </div> 
     <div class="footer" > Copyright @Oneshop 2020</footer></div>
      
  </body>

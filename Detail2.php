@@ -4,20 +4,13 @@
 <head>
         <title> Details1 </title>
         <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/bootstrap.min.css"/>
-        <meta name="viewport" content="width-device-width,initial-scale-1,user-scalable=no">
-    <script src="https:ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js">
-    </script>
-    <script src="js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="css/bootstrap.min"/>
     </head>
 <body>
-
-<div id="background-image">
-<div class="menu-bar">
+        <div class="menu-bar">
     
     <ul>
         <li class="active"><a href="Oneshop.php" >Home</a></li>
-        
         
        <li>Televisions
        <div class="sub-menu-1">
@@ -67,9 +60,7 @@
          </ul>
     </div>
     
-        <div id="image-1"></div>
-            <div id="image-2"></div>
-    </div> 
+</div>
     <div class="footer" > Copyright @Oneshop 2020</footer></div>
      
  </body>
